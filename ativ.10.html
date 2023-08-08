@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Monitoria</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+
+		function calculaPotencia(base, expoente){
+			return base ** expoente
+		}
+
+		function multiplicar(num1, num2){
+			return num1*num2
+		}
+
+		function somar(num1, num2){
+			return num1 + num2
+		}
+
+		let operacao = prompt("Digite a operação desejada")
+
+		let x = parseInt(prompt("Digite a base"))
+		let y = parseInt(prompt("Digite a expoente"))
+
+		if(operacao == "*"){
+			
+			let resultado = multiplicar(x,y);
+			document.write(resultado);	
+		}
+
+		
+
+		
+
+
+	</script>
+
+
+</body>
+</html>
